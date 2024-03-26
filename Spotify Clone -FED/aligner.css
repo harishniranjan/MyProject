@@ -1,0 +1,73 @@
+.red-border{
+    border: 2px solid red;
+    margin: 3px;
+
+}
+.flex
+{
+    display: flex;
+
+}
+
+.justify-content 
+{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black
+    
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.border-radius{
+    border-radius: 7px;
+}
+
+.m-1
+{
+margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 6px; /* Set border-radius to half of the scrollbar width for rounded ends */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #555;
+}
+
+/* For Firefox */
+* {
+    scrollbar-color: #333 #555;
+}
+
+/* For Firefox 63 and earlier */
+* {
+    scrollbar-face-color: #333;
+    scrollbar-track-color: #555;
+}
+
+
+
